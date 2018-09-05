@@ -123,7 +123,7 @@
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" target="core77.com"  href="https://boards.core77.com/">
-              <img class="img-fluid" src="img/portfolio/core77/thumb.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/core77/thumb.jpg" alt="Core77 Boards">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Website</div>
@@ -135,7 +135,7 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" target="mindovermatterrecords.com" href="http://www.mindovermatterrecords.com/">
-              <img class="img-fluid" src="img/portfolio/momr/thumb.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/momr/thumb.jpg" alt="Mind Over Matter Records">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Website</div>
@@ -146,8 +146,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/01.png">
-              <img class="img-fluid" src="img/portfolio/hermanns/menu/thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/01.png">
+              <img class="img-fluid" src="img/portfolio/hermanns/menu/thumb.jpg" alt="Restaurant Menu">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Restaurant Menu [concept]</div>
@@ -156,17 +156,17 @@
                 </div>
               </div>
             </a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/02.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/03.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/04.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/05.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/06.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/07.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgm" data-caption="" href="img/portfolio/hermanns/menu/08.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/02.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/03.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/04.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/05.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/06.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/07.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgm" data-caption="<h4>Restaurant menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator, Digital Press, White 14pt Cornwall Cover</p>" href="img/portfolio/hermanns/menu/08.png"></a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-fancybox="hotgs" data-caption="" href="img/portfolio/hermanns/sticker/01.png">
-              <img class="img-fluid" src="img/portfolio/hermanns/sticker/thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="hotgs" data-caption="<h4>Stickers for Hermann's Olde Town Grill</h4><p>Canon 5D Mark II, Photoshop, Vinyl Stickers</p>" href="img/portfolio/hermanns/sticker/01.png">
+              <img class="img-fluid" src="img/portfolio/hermanns/sticker/thumb.jpg" alt="Stickers">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Stickers</div>
@@ -175,14 +175,14 @@
                 </div>
               </div>
             </a>
-            <a class="portfolio-box" data-fancybox="hotgs" data-caption="" href="img/portfolio/hermanns/sticker/02.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgs" data-caption="" href="img/portfolio/hermanns/sticker/03.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgs" data-caption="" href="img/portfolio/hermanns/sticker/04.png"></a>
-            <a class="portfolio-box" data-fancybox="hotgs" data-caption="" href="img/portfolio/hermanns/sticker/05.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgs" data-caption="<h4>Stickers for Hermann's Olde Town Grill</h4><p>Canon 5D Mark II, Photoshop, Vinyl Stickers</p>" href="img/portfolio/hermanns/sticker/02.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgs" data-caption="<h4>Stickers for Hermann's Olde Town Grill</h4><p>Canon 5D Mark II, Photoshop, Vinyl Stickers</p>" href="img/portfolio/hermanns/sticker/03.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgs" data-caption="<h4>Stickers for Hermann's Olde Town Grill</h4><p>Canon 5D Mark II, Photoshop, Vinyl Stickers</p>" href="img/portfolio/hermanns/sticker/04.png"></a>
+            <a class="portfolio-box" data-fancybox="hotgs" data-caption="<h4>Stickers for Hermann's Olde Town Grill</h4><p>Canon 5D Mark II, Photoshop, Vinyl Stickers</p>" href="img/portfolio/hermanns/sticker/05.png"></a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="/menu/">
-              <img class="img-fluid" src="img/portfolio/html-menu/thumb.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/html-menu/thumb.jpg" alt="HTML Restaurant Menu">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Website [concept]</div>
@@ -193,8 +193,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-fancybox="hotgs" data-caption="" href="img/portfolio/hermanns/beer-menu/01.png">
-              <img class="img-fluid" src="img/portfolio/hermanns/beer-menu/thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="hotgb" data-caption="<h4>Beer menu concept for Hermann's Olde Town Grill</h4><p>Adobe Illustrator</p>" href="img/portfolio/hermanns/beer-menu/01.png">
+              <img class="img-fluid" src="img/portfolio/hermanns/beer-menu/thumb.jpg" alt="Beer Menu">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Beer Menu</div>
@@ -205,8 +205,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-fancybox="album" data-caption="" href="img/portfolio/album/MM-to_call.png">
-              <img class="img-fluid" src="img/portfolio/album/MM-to_call-thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="album" data-caption="<h4>Album cover for Man Mountain <small>To call each thing by it's name</small></h4><p>Adobe Photoshop</p>" href="img/portfolio/album/MM-to_call.png">
+              <img class="img-fluid" src="img/portfolio/album/MM-to_call-thumb.jpg" alt="Album Cover">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Album Cover</div>
@@ -217,8 +217,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-fancybox="album" data-caption="" href="img/portfolio/album/MM-to_be.png">
-              <img class="img-fluid" src="img/portfolio/album/MM-to_be-thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="album" data-caption="<h4>Album cover for Man Mountain <small>To be made as new</small></h4><p>Adobe Photoshop</p>" href="img/portfolio/album/MM-to_be.png">
+              <img class="img-fluid" src="img/portfolio/album/MM-to_be-thumb.jpg" alt="Album Cover">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Album Cover</div>
@@ -229,8 +229,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-fancybox="album" data-caption="" href="img/portfolio/album/GF.png">
-              <img class="img-fluid" src="img/portfolio/album/GF-thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="album" data-caption="<h4>Album cover for Glassfield</h4><p>Adobe Photoshop</p>" href="img/portfolio/album/GF.png">
+              <img class="img-fluid" src="img/portfolio/album/GF-thumb.jpg" alt="Album Cover">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Album Cover</div>
@@ -241,8 +241,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6 m-auto">
-            <a class="portfolio-box" data-fancybox="album" data-caption="" href="img/portfolio/album/RH.png">
-              <img class="img-fluid" src="img/portfolio/album/RH-thumb.jpg" alt="">
+            <a class="portfolio-box" data-fancybox="album" data-caption="<h4>Album cover for Rhone <small>Inter Sidera</small></h4><p>Adobe Photoshop</p>" href="img/portfolio/album/RH.png">
+              <img class="img-fluid" src="img/portfolio/album/RH-thumb.jpg" alt="Album Cover">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">Album Cover</div>
