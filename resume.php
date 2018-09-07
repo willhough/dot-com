@@ -3,13 +3,12 @@
   <head>
     <!-- Hello there, thanks for looking at my source code. -->
     <meta charset="utf-8">
-    <meta name="google-site-verification" content="bG0n5ZGdbsnSboxwfe1b9xZJf1H6o9gqfU5Z_Ulia3M">
     <meta name="robots" content="nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Will Hough's HTML Resume">
     <meta name="keywords" content="Will Hough, Resume, Hire Me, Designer, Web Designer, Web Developer, Photographer, Nerd, Geek">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/fontawesome-all.min.css">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700">
     <title>Will Hough | Resume</title>
     <style>

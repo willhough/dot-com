@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="google-site-verification" content="Oq6UsV_pQ5QhoNNhUMvfqyjhCsLPWurNx5pBgRnggCs">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Seasoned Web Designer, Front End Developer, Photographer &amp; Graphic Designer.">
+    <meta name="author" content="Will Hough">
     <title>Will Hough - Design &amp; Development</title>
     <meta property="fb:app_id" content="247293252746536">
     <meta property="og:url" content="http://www.willhough.com/">
@@ -14,11 +14,11 @@
     <meta property="og:description" content="Seasoned Web Designer, Front End Developer, Photographer &amp; Graphic Designer.">
     <meta property="og:image" content="http://www.willhough.com/img/will_hough.png">
     <meta name="twitter:card" content="summary">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css" type="text/css">
     <link href="css/will.css" rel="stylesheet">
   </head>
   <body id="page-top">
@@ -89,7 +89,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-gem text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Attention To Detail</h3>
               <p class="text-muted mb-0"></p>
             </div>
@@ -103,7 +103,7 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-newspaper text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Latest &amp; Greatest</h3>
               <p class="text-muted mb-0"></p>
             </div>
@@ -277,7 +277,7 @@
             <p>1(269)760-1865</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <i class="fa fa-envelope fa-3x mb-3 sr-contact"></i>
             <p><a href="mailto:your-email@your-domain.com">will@willhough.com</a></p>
           </div>
         </div>
