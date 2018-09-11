@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="google-site-verification" content="Oq6UsV_pQ5QhoNNhUMvfqyjhCsLPWurNx5pBgRnggCs">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Seasoned Web Designer, Front End Developer, Photographer &amp; Graphic Designer located in Plymouth, Michigan.">
+    <meta name="description" content="Will Hough - Seasoned Web Designer, Front End Developer, Photographer &amp; Graphic Designer located in Plymouth, Michigan.">
     <meta name="keywords" content="Web Design, Web Developer, Front End Developer, Designer, Graphic Design, Photographer, Plymouth, Michigan, 48170">
     <meta name="author" content="Will Hough">
-    <title>Will Hough - Design &amp; Development</title>
+    <title>Will Hough - Designer &amp; Developer</title>
     <meta property="fb:app_id" content="247293252746536">
     <meta property="og:url" content="http://www.willhough.com/">
     <meta property="og:type" content="website">
