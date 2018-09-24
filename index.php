@@ -51,6 +51,13 @@
         </div>
       </div>
     </section>
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2>Check out my article on Setting up GitHub with your Website.</h2>
+        <p>Simply explaining how to add an SSH key to your hosting server and get your site on GitHub.</p>
+        <a class="btn btn-light btn-xl sr-button" href="/git">Check It Out!</a>
+      </div>
+    </section>
     <section id="services">
       <div class="container">
         <div class="row">
