@@ -7,7 +7,7 @@
     <meta name="description" content="Will Hough - Seasoned Web Designer, Front End Developer, Photographer &amp; Graphic Designer located in Plymouth, Michigan.">
     <meta name="keywords" content="Web Design, Web Developer, Front End Developer, Designer, Graphic Design, Photographer, Plymouth, Michigan, 48170">
     <meta name="author" content="Will Hough">
-    <title>Will Hough - GitHub - Setting Up Your Website &amp; Adding Your SSH Key</title>
+    <title>Will Hough - GitHub - Setting Up Your Website &amp; SSH Key</title>
     <meta property="fb:app_id" content="247293252746536">
     <meta property="og:url" content="http://www.willhough.com/">
     <meta property="og:type" content="website">
@@ -26,7 +26,7 @@
     <?php require_once( 'inc_nav.php' ); ?>
     <header class="masthead article text-center text-white d-flex">
       <div class="container my-md-auto">
-        <h1 class="text-uppercase mt-md-5">GitHub - Setting Up Your Website &amp; Adding Your SSH Key</h1>
+        <h1 class="text-uppercase mt-md-5">GitHub - Setting Up Your Website &amp; SSH Key</h1>
       </div>
     </header>
     <section>
