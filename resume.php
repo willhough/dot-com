@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="robots" content="nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Will Hough's HTML Resume">
+    <meta name="description" content="Will Hough | Resume">
     <meta name="keywords" content="Will Hough, Resume, Hire Me, Designer, Web Designer, Web Developer, Photographer, Nerd, Geek">
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/vendor/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
