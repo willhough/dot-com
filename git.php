@@ -73,9 +73,9 @@ The key's randomart image is:
         <p>Take your value output and create a new GitHub ssh key. Find <b>Settings</b> in the top menu.</p>
         <a href="/img/git/10.jpg"><img src="/img/git/10.jpg" class="img-thumbnail mb-5"></a>
         <p>Then <b>SSH and GPG keys</b> on the left menu. Then click the green button "New SSH Key" on the top.</p>
-        <img src="/img/git/11.jpg" class="img-thumbnail mb-5">
+        <a href="/img/git/11.jpg"><img src="/img/git/11.jpg" class="img-thumbnail mb-5"></a>
         <p>I title mine using the site I'm creating, i.e. example.com in the first input under Title. Then paste in the code you copied starting with <code>ssh-rsa AAGAB</code> then click the "Add SSH key" button</p>
-        <img src="/img/git/12.jpg" class="img-thumbnail mb-5">
+        <a href="/img/git/12.jpg"><img src="/img/git/12.jpg" class="img-thumbnail mb-5"></a>
         <p>You will have to confirm your password at the end.</p>
         <p>cd to your main sites public directory</p>
         <b class="green">INPUT</b>
