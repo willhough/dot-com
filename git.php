@@ -12,7 +12,7 @@
     <meta property="og:url" content="http://www.willhough.com/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="GitHub - Setting Up Your Website &amp; Adding Your SSH Key">
-    <meta property="og:description" content="I'm going to simply explain how to add an SSH key to your hosting server and get your site on GitHub.">
+    <meta property="og:description" content="I'm going to simply explain how to add an SSH key to your hosting server and add your site files to GitHub.">
     <meta property="og:image" content="http://www.willhough.com/img/will_hough.png">
     <meta name="twitter:card" content="summary">
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
     </header>
     <section>
       <div class="container">
-        <p>If you are anything like me, you probably started using FTP to upload and manage your website changes. The past 5 or so years I've been using <a href="https://www.github.com/">GitHub</a> and <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to manage my sites. I'm going to simply explain how to add an SSH key to your hosting server and get your site on GitHub.</p>
+        <p>If you are anything like me, you probably started using FTP to upload and manage your website changes. The past 5 or so years I've been using <a href="https://www.github.com/">GitHub</a> and <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to manage my sites. I'm going to simply explain how to add an SSH key to your hosting server and add your site files to GitHub.</p>
         <p>This article is already assuming you know some basic shell and git commands.</p>
         <p>If you don't already have one, create a backup of you website on your local machine.</p>
         <p>Do you have a GitHub account? If not, go to <a href="https://www.github.com/">GitHub</a> and set up your account, it's free.</p>
@@ -71,11 +71,11 @@ The key's randomart image is:
         <b class="red">OUTPUT</b>
         <pre>ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAz3kpIXGjQg+b/61HZLlRRpJY3TPQDG4Jn/k4RHCFUK1OiQPI5l4EGUmniDfLS5OcMK1ZHuA/6GQREaDLz0OqrO6V4o2cV6zZZPCs4/o77+bgM5dQTHedbv3F8ePDkTczFDbchwENgnotMPTKfE7EWciziiN4uX6Xt2j8CtscmFBNBGN/v7KT5FaxQ2hV/II59qjZed5vXRdgvZsg2W6m830/8675309JeNNy/MRBvld9BLaXWtj1ZCTF49sQ/5blsWyIw5CalUYVWSHKmxZoByeFelicia9uN29iZDrmpcZiCS6UjLCu5e6gbiLz7X76PBfbt6u2GNHkA3EIjnWjjw== user@server.host.com</pre>
         <p>Take your value output and create a new GitHub ssh key. Find <b>Settings</b> in the top menu.</p>
-        <a href="/img/git/10.jpg"><img src="/img/git/10.jpg" class="img-thumbnail mb-5"></a>
+        <a data-fancybox="git" data-caption="Take your value output and create a new GitHub ssh key. Find <b>Settings</b> in the top menu." href="/img/git/10.jpg"><img src="/img/git/10.jpg" class="img-thumbnail mb-5"></a>
         <p>Then <b>SSH and GPG keys</b> on the left menu. Then click the green button "New SSH Key" on the top.</p>
-        <a href="/img/git/11.jpg"><img src="/img/git/11.jpg" class="img-thumbnail mb-5"></a>
+        <a data-fancybox="git" data-caption="Then <b>SSH and GPG keys</b> on the left menu. Then click the green button <i>New SSH Key</i> on the top." href="/img/git/11.jpg"><img src="/img/git/11.jpg" class="img-thumbnail mb-5"></a>
         <p>I title mine using the site I'm creating, i.e. example.com in the first input under Title. Then paste in the code you copied starting with <code>ssh-rsa AAGAB</code> then click the "Add SSH key" button</p>
-        <a href="/img/git/12.jpg"><img src="/img/git/12.jpg" class="img-thumbnail mb-5"></a>
+        <a data-fancybox="git" data-caption="I title mine using the site I'm creating, i.e. example.com in the first input under Title. Then paste in the code you copied starting with <code>ssh-rsa AAGAB</code> then click the <i>Add SSH key</i> button" href="/img/git/12.jpg"><img src="/img/git/12.jpg" class="img-thumbnail mb-5"></a>
         <p>You will have to confirm your password at the end.</p>
         <p>cd to your main sites public directory</p>
         <b class="green">INPUT</b>
