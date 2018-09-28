@@ -21,6 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/jquery.fancybox.min.css" type="text/css">
     <link href="css/will.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body id="page-top">
     <?php require_once( 'inc_nav.php' ); ?>
