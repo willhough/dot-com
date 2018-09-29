@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="google-site-verification" content="Oq6UsV_pQ5QhoNNhUMvfqyjhCsLPWurNx5pBgRnggCs">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Will Hough - Seasoned Web Designer, Front End Developer, Photographer &amp; Graphic Designer located in Plymouth, Michigan.">
     <meta name="keywords" content="Web Design, Web Developer, Front End Developer, Designer, Graphic Design, Photographer, Plymouth, Michigan, 48170">
@@ -21,6 +20,15 @@
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/jquery.fancybox.min.css" type="text/css">
     <link href="css/will.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126620329-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126620329-1');
+    </script>
   </head>
   <body id="page-top">
     <?php require_once( 'inc_nav.php' ); ?>

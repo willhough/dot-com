@@ -58,6 +58,15 @@
         border-top: 1px solid #ccc;
       }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126620329-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126620329-1');
+    </script>
   </head>
   <body class="container">
     <a href="/media/Will_Hough-Resume.pdf" role="button" class="btn btn-sm btn-outline-danger d-print-none">Download PDF</a>
