@@ -40,7 +40,7 @@
     </header>
     <section>
       <div class="container">
-        <p>If you are anything like me, you probably started using FTP to upload and manage your website changes. The past 5 or so years I've been using <a href="https://www.github.com/">GitHub</a> and <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to manage my sites. I'm going to simply explain how to add an SSH key to your hosting server and add your site files to GitHub.</p>
+        <p>If you are anything like me, you probably started using FTP to upload and manage your website changes. The past 5 or so years I've been using <a href="https://www.github.com/">GitHub</a> and <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to manage my sites. I'm going to explain how to add an SSH key to your hosting server and add your site files to GitHub.</p>
         <p>This article is already assuming you know some basic shell and git commands.</p>
         <p>If you don't already have one, create a backup of you website on your local machine.</p>
         <p>Do you have a GitHub account? If not, go to <a href="https://www.github.com/">GitHub</a> and set up your account, it's free.</p>
