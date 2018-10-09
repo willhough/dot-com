@@ -40,23 +40,23 @@
     </header>
     <section>
       <div class="container">
-        <p>If you are anything like me, you probably started using FTP to upload and manage your website changes. The past 5 or so years I've been using <a href="https://www.github.com/">GitHub</a> and <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to manage my sites. I'm going to explain how to add an SSH key to your hosting server and add your site files to GitHub.</p>
+        <p>If you are anything like me, you probably started using FTP to upload and manage your website changes. The past 5 years or so, I've been using <a href="https://www.github.com/">GitHub</a> and <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to manage my sites. I'm going to explain how to add an SSH key to your hosting server and add your site files to GitHub.</p>
         <p>This article is already assuming you know some basic shell and git commands.</p>
-        <p>If you don't already have one, create a backup of you website on your local machine.</p>
-        <p>Do you have a GitHub account? If not, go to <a href="https://www.github.com/">GitHub</a> and set up your account, it's free.</p>
-        <p>SSH in to your webserver and lets start the process of creating the SSH key for you to use in GitHub.</p>
+        <p>If you don't already have one, create a backup of your website on your local machine.</p>
+        <p>Do you have a GitHub account? If not, go to <a href="https://www.github.com/">GitHub</a> and set up your free account.</p>
+        <p>SSH in to your webserver and we can start the process of creating the SSH key for you to use in GitHub.</p>
         <b class="green">INPUT</b>
         <p><code>ssh-keygen -t rsa</code></p>
         <b class="red">OUTPUT</b>
         <pre>Generating public/private rsa key pair.
 Enter file in which to save the key (/home/user/.ssh/id_rsa):</pre>
-        <p>Unless you know a specific spot you want this saved, the default location will work, just hit enter.</p>
+        <p>Unless you know a specific spot you want this saved, the default location will work. Just hit enter.</p>
         <b class="red">OUTPUT</b>
         <pre>Created directory '/home/user/.ssh'.
 Enter passphrase (empty for no passphrase):</pre>
-        <p>Passphrase is optional, hit enter for no passphrase.</p>
+        <p>A passphrase is optional. Simply hit enter for no passphrase.</p>
         <pre>Enter same passphrase again:</pre>
-        <p>Hit enter again for no passphrase.</p>
+        <p>Hit enter again to confirm no passphrase will be set.</p>
         <b class="red">OUTPUT</b>
         <pre>Your identification has been saved in /home/user/.ssh/id_rsa.
 Your public key has been saved in /home/user/.ssh/id_rsa.pub.
@@ -76,40 +76,40 @@ The key's randomart image is:
 +-----------------+</pre>
         <b class="green">INPUT</b>
         <p><code>cat ~/.ssh/id_rsa.pub</code></p>
-        <p>The output looks something like this:</p>
+        <p>The output should look something like this:</p>
         <b class="red">OUTPUT</b>
         <pre>ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAz3kpIXGjQg+b/61HZLlRRpJY3TPQDG4Jn/k4RHCFUK1OiQPI5l4EGUmniDfLS5OcMK1ZHuA/6GQREaDLz0OqrO6V4o2cV6zZZPCs4/o77+bgM5dQTHedbv3F8ePDkTczFDbchwENgnotMPTKfE7EWciziiN4uX6Xt2j8CtscmFBNBGN/v7KT5FaxQ2hV/II59qjZed5vXRdgvZsg2W6m830/8675309JeNNy/MRBvld9BLaXWtj1ZCTF49sQ/5blsWyIw5CalUYVWSHKmxZoByeFelicia9uN29iZDrmpcZiCS6UjLCu5e6gbiLz7X76PBfbt6u2GNHkA3EIjnWjjw== user@server.host.com</pre>
-        <p>Take your value output and create a new GitHub ssh key. Find <b>Settings</b> in the top menu.</p>
-        <a data-fancybox="git" data-caption="Take your value output and create a new GitHub ssh key. Find <b>Settings</b> in the top menu." href="/img/git/10.jpg"><img src="/img/git/10.jpg" class="img-thumbnail mb-5"></a>
-        <p>Then <b>SSH and GPG keys</b> on the left menu. Then click the green button "New SSH Key" on the top.</p>
+        <p>Copy the SSH key starting at 'ssh-rsa' through the end of the line. You'll be using it shortly. Login to your newly created GitHub account and using the top right menu click the <b>Settings</b> link.</p>
+        <a data-fancybox="git" data-caption="Copy the SSH key starting at 'ssh-rsa' through the end of the line. You'll be using it shortly. Find <b>Settings</b> in the top menu." href="/img/git/10.jpg"><img src="/img/git/10.jpg" class="img-thumbnail mb-5"></a>
+        <p>From the left menu, click <b>SSH and GPG keys</b>. Then click the green 'New SSH Key' button on the top right.</p>
         <a data-fancybox="git" data-caption="Then <b>SSH and GPG keys</b> on the left menu. Then click the green button <i>New SSH Key</i> on the top." href="/img/git/11.jpg"><img src="/img/git/11.jpg" class="img-thumbnail mb-5"></a>
-        <p>I title mine using the site I'm creating, i.e. example.com in the first input under Title. Then paste in the code you copied starting with <code>ssh-rsa AAGAB</code> then click the "Add SSH key" button</p>
-        <a data-fancybox="git" data-caption="I title mine using the site I'm creating, i.e. example.com in the first input under Title. Then paste in the code you copied starting with <code>ssh-rsa AAGAB</code> then click the <i>Add SSH key</i> button" href="/img/git/12.jpg"><img src="/img/git/12.jpg" class="img-thumbnail mb-5"></a>
-        <p>You will have to confirm your password at the end.</p>
-        <p>cd to your main sites public directory</p>
+        <p>Give your SSH key a title. To keep things organized if you have multiple keys, I would suggest using the domain name of the site you're working on for the title (e.g., example.com). Paste the code you copied previously into the Key field and click the green 'Add SSH Key' button.</p>
+        <a data-fancybox="git" data-caption="Give your SSH key a title. To keep things organized if you have multiple keys, I would suggest using the domain name of the site you're working on for the title (e.g., example.com). Paste the code you copied previously into the Key field and click the green 'Add SSH Key' button." href="/img/git/12.jpg"><img src="/img/git/12.jpg" class="img-thumbnail mb-5"></a>
+        <p>If you're prompted, enter your GitHub password.</p>
+        <p>In your SSH window, cd to your main sites public directory.</p>
         <b class="green">INPUT</b>
         <p><code>cd www/www.example.com/html/</code></p>
         <b class="green">INPUT</b>
         <p><code>git clone git@github.com:user/example.com.git .</code></p>
-        <p>Using the <b>dot</b> at the end sets the contents of the repo in the current directory. If you didn't have the dot there, the git directory /hough.rocks would be created as well.</p>
+        <p>Using the <b>dot</b> at the end sets the contents of the repo in the current directory. If you didn't have the dot there, the git directory /example.com would be created as well.</p>
         <b class="red">OUTPUT</b>
         <pre>Cloning into '.'...
 The authenticity of host 'github.com (190.69.123.101)' can't be established.
 RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
 Are you sure you want to continue connecting (yes/no)? yes</pre>
-        <p>It will ask if you "want to continue connecting" type "yes" and hit enter.</p>
+        <p>During the cloning process, you'll be prompted to continue. Type 'yes' and hit enter to proceed.</p>
         <b class="red">OUTPUT</b>
         <pre>Warning: Permanently added 'github.com,190.69.123.101' (RSA) to the list of known hosts.
 remote: Counting objects: 6, done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (6/6), done.</pre>
-        <p>Lets have a look at those files on your webserver, list all files, even hidden ones so we can see that .htaccess file.</p>
+        <p>Once the clone is complete, you can check to make sure the files were cloned promptly from GitHub by using the following list all command.</p>
         <b class="green">INPUT</b>
         <p><code>ls -a</code></p>
         <b class="red">OUTPUT</b>
         <pre>.  ..  .git  .htaccess  README.md</pre>
-        <p>The .git directory is part of GitHub and is necessary for it to work, so don't remove it.</p>
+        <p>The .git directory is required to maintain a functioning GitHub repository so you'll want to be sure not to remove it.</p>
         <b class="green">INPUT</b>
         <p><code>git status</code></p>
         <b class="red">OUTPUT</b>
